@@ -10,6 +10,7 @@
 }
 
 .row {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-left: -5px;
@@ -276,14 +277,13 @@
 }
 
 /* Mobile */
-
 @media(max-width: 739px) {
     .row {
         margin-left: -5px;
         margin-right: -5px;
     }
     .wide {
-        width: 400px;
+        width: 200px;
     }
 
     .col {

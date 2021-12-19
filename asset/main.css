@@ -263,6 +263,7 @@ a {
   border-radius: 50%;
   overflow: hidden;
   transform: translatey(-5px);
+  margin-left: 10px;
 }
 
 .header__box2-logo img {
@@ -363,6 +364,9 @@ a {
   padding-top: 58px;
   padding-bottom: 20px;
   background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* == category == */

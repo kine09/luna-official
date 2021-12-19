@@ -24,10 +24,9 @@
     }
 
     .search__bar {
-        position: absolute;
-        bottom: -50%;
-        left: 0;
-        width: 400px;
+        position: relative;
+        max-width: 400px;
+        transform: translateY(150%)
     }
 
     .header__box1-interface {
@@ -41,6 +40,7 @@
         border: none;
         padding: 0 10px;
         background-color: #F5F5F5;
+        max-width: 400px;
     }
     
     .header__box1 {
@@ -180,7 +180,7 @@
         bottom: -120%;
         right: 0;
         border: 1px solid var(--primary-color);
-        width: 500%;
+        max-width: 500%;
         padding: 0 10px;
     }
 
