@@ -1,1394 +1,1524 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/grid.css">
-    <link rel="stylesheet" href="./asset/main.css">
-    <link rel="stylesheet" href="./asset/responsive.css">
-    <link rel="stylesheet" href="./asset/base.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="./img/favicon_created_by_logaster.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/grid.css" />
+    <link rel="stylesheet" href="./asset/main.css" />
+    <link rel="stylesheet" href="./asset/responsive.css" />
+    <link rel="stylesheet" href="./asset/base.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/favicon_created_by_logaster.ico" />
     <title>Luna Official, cửa hàng trực tuyến</title>
-</head>
-<body>
-
-   
+  </head>
+  <body>
     <!-- == header == -->
     <div id="header" class="header" for="header">
-        <div class="header__box">
-                    <!-- = box1 = -->
-                    <div class="header__box1 hidden off">
-                        <div class="header__box1-connect">
-                            <div class="header__box1-item">
-                                <a href="#" class="header__box1-link">Kênh Người Bán</a>
-                            </div>
-                            <div class="header__box1-item">
-                                <a href="#" class="header__box1-link">Trở thành Người bán Shopee</a>
-                            </div>
-                            <div class="header__box1-item download">
-                                <a href="#" class="header__box1-link">Tải ứng dụng</a>
-                                <div class="download__box">
-                                    <a href="#"><div class="download__box-qr">
-                                        <img src="./img/QR_code.png" alt="">
-                                    </div>
-                                    <div class="download__box-app">
-                                        <img src="./img/apstore.png" alt="">
-                                        <img src="./img/chplay.png" alt="">
-                                        <img src="./img/app gallery.png" alt="">
-                                    </div></a>
-                                </div>
-                            </div>
-                            <div class="header__box1-item header__box1-social">
-                                Kết nối
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="header__box1-interface">
-                            <div class="header__box1-item header__box1-notify">
-                                <i class="far fa-bell"></i>
-                                <p>Thông báo</p>
+      <div class="header__box">
+        <!-- = box1 = -->
+        <div class="header__box1 hidden off">
+          <div class="header__box1-connect">
+            <div class="header__box1-item">
+              <a href="#" class="header__box1-link">Kênh Người Bán</a>
+            </div>
+            <div class="header__box1-item">
+              <a href="#" class="header__box1-link"
+                >Trở thành Người bán Shopee</a
+              >
+            </div>
+            <div class="header__box1-item download">
+              <a href="#" class="header__box1-link">Tải ứng dụng</a>
+              <div class="download__box">
+                <a href="#"
+                  ><div class="download__box-qr">
+                    <img src="./img/QR_code.png" alt="" />
+                  </div>
+                  <div class="download__box-app">
+                    <img src="./img/apstore.png" alt="" />
+                    <img src="./img/chplay.png" alt="" />
+                    <img src="./img/app gallery.png" alt="" /></div
+                ></a>
+              </div>
+            </div>
+            <div class="header__box1-item header__box1-social">
+              Kết nối
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="header__box1-interface">
+            <div class="header__box1-item header__box1-notify">
+              <i class="far fa-bell"></i>
+              <p>Thông báo</p>
 
-                                <div class="notify__box">
-                                    <img src="./img/notify.png" alt="">
-                                    <p>Đăng nhập để xem thông báo</p>
+              <div class="notify__box">
+                <img src="./img/notify.png" alt="" />
+                <p>Đăng nhập để xem thông báo</p>
 
-                                    <div class="notify__box-log">
-                                        <a href="#" class="header__register">Đăng ký</a>
-                                        <a href="#"class="header__login">Đăng nhập</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header__box1-item">
-                                <a href="" class="header__box1-link">
-                                    <i class="far fa-question-circle"></i>
-                                    Hỗ Trợ
-                                </a>
-                            </div>
-                            <div class="header__box1-item">
-                                <a href="#" class="header__box1-link header__register">Đăng ký</a>
-                            </div>
-                            <div class="header__box1-item">
-                                <a href="#" class="header__box1-link header__login">Đăng Nhập</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- = box2 = -->
-                    <div class="header__box2">
-                        <div class="header__box2-logo">
-                            <a href="#">
-                                <img src="./img/favicon_created_by_logaster.ico" alt="">
-                            </a>
-                        </div>
-                        <div class="header__box2-search">
-                            <div class="search__bar">
-                                <input type="text" class="search__bar-input off" placeholder="Tìm trong shop này">
-                                <div class="search__bar-local">
-                                    <p>Trong shop này</p>
-                                    <i class="fas fa-chevron-down"></i>
-                                </div>
-                                <div class="search__bar-btn">
-                                    <i class="fas fa-search"></i>
-                                </div>
-                            </div>
-                            <div class="search__recommand ">
-                                 <a href="#" class="search__recommand-link">Áo khoác</a>
-                                 <a href="#" class="search__recommand-link">Váy</a>
-                                 <a href="#" class="search__recommand-link">Quần</a>
-                                 <a href="#" class="search__recommand-link">Túi Xách Nữ</a>
-                                 <a href="#" class="search__recommand-link">Dép</a>
-                                 <a href="#" class="search__recommand-link">Chân váy</a>
-                                 <a href="#" class="search__recommand-link">Dép nữ</a>
-                                 <a href="#" class="search__recommand-link">Tai nghe</a>
-                            </div>
-                        </div>
-                        <div class="header__box2-cart">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-
-                        <div class="header__box2-navBtn">
-                            <i class="fas fa-bars"></i>
-                        </div>
-                    </div>
-
+                <div class="notify__box-log">
+                  <a href="#" class="header__register">Đăng ký</a>
+                  <a href="#" class="header__login">Đăng nhập</a>
+                </div>
+              </div>
+            </div>
+            <div class="header__box1-item">
+              <a href="" class="header__box1-link">
+                <i class="far fa-question-circle"></i>
+                Hỗ Trợ
+              </a>
+            </div>
+            <div class="header__box1-item">
+              <a href="#" class="header__box1-link header__register">Đăng ký</a>
+            </div>
+            <div class="header__box1-item">
+              <a href="#" class="header__box1-link header__login">Đăng Nhập</a>
+            </div>
+          </div>
         </div>
+        <!-- = box2 = -->
+        <div class="header__box2">
+          <div class="header__box2-logo">
+            <a href="">
+              <img src="./img/favicon_created_by_logaster.ico" alt="" />
+            </a>
+          </div>
+          <div class="header__box2-search">
+            <div class="search__bar">
+              <input
+                type="text"
+                class="search__bar-input off"
+                placeholder="Tìm trong shop này"
+              />
+              <div class="search__bar-local">
+                <p>Trong shop này</p>
+                <i class="fas fa-chevron-down"></i>
+              </div>
+              <div class="search__bar-btn">
+                <i class="fas fa-search"></i>
+              </div>
+            </div>
+            <div class="search__recommand">
+              <a href="#" class="search__recommand-link">Áo khoác</a>
+              <a href="#" class="search__recommand-link">Váy</a>
+              <a href="#" class="search__recommand-link">Quần</a>
+              <a href="#" class="search__recommand-link">Túi Xách Nữ</a>
+              <a href="#" class="search__recommand-link">Dép</a>
+              <a href="#" class="search__recommand-link">Chân váy</a>
+              <a href="#" class="search__recommand-link">Dép nữ</a>
+              <a href="#" class="search__recommand-link">Tai nghe</a>
+            </div>
+          </div>
+          <div class="header__box2-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <div class="header__box2-navBtn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- == container == -->
     <div id="container" class="container">
-        <div class="grid wide">
-            <div class="row">
-    <!-- = category = -->
-                <div class="col l-2 m-0">
-                    <div class="container__category">
-                        <div class="category__shop">
-                            <img src="./img/favicon_created_by_logaster.ico" alt="">
-                            <div class="category__shop-name">
-                                <p>Luna Official</p>
-                                <span>Online 2 phút trước</span>
-                            </div>
-                        </div>
-                        <div class="category__list">
-                            <div class="category__header">
-                                <p>danh mục shop</p>
-                            </div>
-                            <div class="category__item category__item--active" type="all">
-                                <p>sản phẩm</p>
-                            </div>
-                            <div class="category__item" type="clothes">
-                                <p>quần áo cao cấp</p>
-                            </div>
-                            <div class="category__item" type="winter">
-                                <p>xin chào mùa đông</p>
-                            </div>
-                            <div class="category__item" type="other">
-                                <p>Sản phẩm khác</p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="grid wide">
+        <div class="row">
+          <!-- = category = -->
+          <div class="col l-2 m-0">
+            <div class="container__category">
+              <div class="category__shop">
+                <img src="./img/favicon_created_by_logaster.ico" alt="" />
+                <div class="category__shop-name">
+                  <p>Luna Official</p>
+                  <span>Online 2 phút trước</span>
                 </div>
-
-    <!-- = product = -->
-                <div class="col l-10 m-12">
-                    <div class="container__product">
-                        <div class="product__navbar">
-                            <div class="product__navbar-sort">
-                                <p class="product__navbar-sort-text">Sắp xếp theo</p>
-                                <button class="product__navbar-sort-btn btn btn--active">Phổ Biến</button>
-                                <button class="product__navbar-sort-btn btn">Mới Nhất</button>
-                                <button class="product__navbar-sort-btn btn">Bán Chạy</button>
-                                <div class="product__navbar-sort-price">
-                                    <select name="price-sort" id="price-sort" >
-                                        <option value="default">
-                                            <p>Giá</p><i class="fas fa-chevron-down"></i>
-                                        </option>
-                                        <option value="price-incease">
-                                            <p >Giá: Thấp đến cao</p>
-                                        </option>
-                                        <option value="price-decease">
-                                            <p >Giá: Cao xuống thấp</p>
-                                        </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="product__navbar-page">
-                                <div class="product__navbar-page__number">
-                                    <p class="product__navbar-page__number-curent color--active">1</p>
-                                    /
-                                    <p class="product__navbar-page__number-total">2</p>
-                                </div>
-                                <div class="product__navbar-page__tranfer">
-                                    <span><i class="fas fa-angle-left"></i></span>
-                                    <span><i class="fas fa-angle-right"></i></span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="product__content">
-                            <div class="grid wide">
-                                <div class="row">
-     <!-- === product item === -->
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes" >
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/img-item.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Áo khoác nam bomber da lộn Amintino áo khoác da lộn nam phom rộng</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old">
-                                                        <span>₫</span> 
-                                                        250.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 
-                                                        229.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 1,1k</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--off">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item2.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần nỉ da cá Amitino Jogger nỉ nam cao cấp ấm áp</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--on">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        250.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 
-                                                        100.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 330</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item3.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Áo khoác gió chống nước Amitino áo gió nam thời trang unisex</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        250.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 130.000 - <span>₫</span>189.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 399</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="winter">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item4.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Tất ngắn nam Amitino Vớ thấp cổ màu trơn</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        7.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 4.550
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 261</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item5.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Áo thun dài tay Amitino Áo giữ nhiệt thể thao nam 4C</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        60.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 39.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 110</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img" >
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item6.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần đũi nam Amitino Quần dáng trẻ trung</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--on">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        180.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 169.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 503</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="other">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item7.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần Sịp Nam Boxer Cạp To Cotton Mát Amitino AM02</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        180.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 35.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 1,2k</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item8.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Áo gió lót lông nữ Amintino áo khoác gió nam nữ lót lông ấm áp dày dặn</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--on">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        299.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 199.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 88</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item9.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Áo khoác lông cừu chống nước Amitino Áo gió thể thao lót lông kèm túi đựng</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--on">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        299.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 200.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 166</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item10.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Bộ thể thao nam thu đông vải thun nỉ Amitino Áo khoác thể thao dày dặn co giãn</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--on">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        340.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 179.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 102</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item11.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần đũi nam Amitino Quần dài suông phong cách</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--on">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        150.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 119.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 167</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item12.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần thể thao nam Amitino Jogger nỉ dày dặn Quần tập Gym nhiều màu</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--on">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        150.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 100.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 132</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item13.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần nỉ nam Amitino Jogger nam thể thao</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--on">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        150.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 100.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 124</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item14.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Áo phao lông vũ nam  Amitino Áo phao siêu nhẹ chất lông vũ nam</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--on">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        390.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 299.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 63</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item15.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần thể thao nam Amitino Quần thể dục 3 sọc</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--on">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        120.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 69.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 158</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item16.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần Thể Thao Nam Đen 1 Sọc Trắng Ống Suông Amitino, Quần Thể Dục Nam</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        120.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 149.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 123</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item" rule="clothes">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item17.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần Âu Nam Cao Cấp, Quần Tây Nam Trẻ Chất Vải Co Giản Nhẹ Hàng Công Ty AMITINO</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--on">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--on">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--on">
-                                                        <span>₫</span> 
-                                                        299.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 239.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 147</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col l-2-4 m-4 sm-6">
-                                        <div class="product__item"  rule="other">
-                                            <div class="product__item-img">
-                                                <div class="product__item-img-favour ">
-                                                    <p>yêu thích</p>
-                                                </div>
-                                                <div class="product__item-img-sale flex--on">
-                                                    <p>35%</p>
-                                                    <span>giảm</span>
-                                                </div>
-                                                <img src="./img/item18.jpg" alt="">
-                                                <img src="./img/bg-up.png" alt="">
-                                            </div>
-                                            <div class="product__item-info">
-                                                <div class="product__item-description">
-                                                    <p>Quần sịp nam vải cotton Amitino Quần lót boxing mềm mát</p>
-                                                </div>
-                                                <div class="product__item-sale">
-                                                    <div class="product__item-sale-value display--off">
-                                                        <p>giảm đ25k</p>
-                                                    </div>
-                                                    <div class="product__item-sale-quantity display--off">
-                                                        <p>Mua giá bán buôn/bán sỉ</p>
-                                                    </div>
-                                                    <div class="product__item-sale-deal display--off">
-                                                        <p>mua kèm deal sốc</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-price">
-                                                    <p class="product__item-price-old display--off">
-                                                        <span>₫</span> 
-                                                        120.000
-                                                    </p>
-                                                    <p class="product__item-price-new">
-                                                        <span>₫</span> 18.000
-                                                    </p>
-                                                </div>
-                                                <div class="product__item-rating">
-                                                    <div class="product__item-rating-heart">
-                                                        <i class="far fa-heart"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-star">
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                        <i class="fas fa-star"></i>
-                                                    </div>
-                                                    <div class="product__item-rating-sold">
-                                                        <p>Đã bán 101</p>
-                                                    </div>
-                                                </div>
-                                                <div class="product__item-place">
-                                                    <p>Hà Nội</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        <!-- == footer == -->
-                    <div id="footer" class="footer">
-                        <div class="footer__icon">
-                            <i class="fas fa-chevron-left"></i>
-                        </div>
-                        <button class="footer__btn footer__btn--active">1</button>
-                        <button class="footer__btn">2</button>
-                        <div class="footer__icon">
-                            <i class="fas fa-chevron-right"></i>
-                        </div>
-
-                    </div>
-
+              </div>
+              <div class="category__list">
+                <div class="category__header">
+                  <p>danh mục shop</p>
                 </div>
+                <div class="category__item category__item--active" type="all">
+                  <p>sản phẩm</p>
+                </div>
+                <div class="category__item" type="clothes">
+                  <p>quần áo cao cấp</p>
+                </div>
+                <div class="category__item" type="winter">
+                  <p>xin chào mùa đông</p>
+                </div>
+                <div class="category__item" type="other">
+                  <p>Sản phẩm khác</p>
+                </div>
+              </div>
             </div>
+          </div>
+
+          <!-- = product = -->
+          <div class="col l-10 m-12">
+            <div class="container__product">
+              <div class="product__navbar">
+                <div class="product__navbar-sort">
+                  <p class="product__navbar-sort-text">Sắp xếp theo</p>
+                  <button class="product__navbar-sort-btn btn btn--active">
+                    Phổ Biến
+                  </button>
+                  <button class="product__navbar-sort-btn btn">Mới Nhất</button>
+                  <button class="product__navbar-sort-btn btn">Bán Chạy</button>
+                  <div class="product__navbar-sort-price">
+                    <select name="price-sort" id="price-sort">
+                      <option value="default">
+                        <p>Giá</p>
+                        <i class="fas fa-chevron-down"></i>
+                      </option>
+                      <option value="price-incease">
+                        <p>Giá: Thấp đến cao</p>
+                      </option>
+                      <option value="price-decease">
+                        <p>Giá: Cao xuống thấp</p>
+                      </option>
+                    </select>
+                  </div>
+                </div>
+                <div class="product__navbar-page">
+                  <div class="product__navbar-page__number">
+                    <p
+                      class="product__navbar-page__number-curent color--active"
+                    >
+                      1
+                    </p>
+                    /
+                    <p class="product__navbar-page__number-total">2</p>
+                  </div>
+                  <div class="product__navbar-page__tranfer">
+                    <span><i class="fas fa-angle-left"></i></span>
+                    <span><i class="fas fa-angle-right"></i></span>
+                  </div>
+                </div>
+              </div>
+              <div class="product__content">
+                <div class="grid wide">
+                  <div class="row">
+                    <!-- === product item === -->
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/img-item.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Áo khoác nam bomber da lộn Amintino áo khoác da
+                              lộn nam phom rộng
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old">
+                              <span>₫</span>
+                              250.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span>
+                              229.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 1,1k</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--off">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item2.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần nỉ da cá Amitino Jogger nỉ nam cao cấp ấm áp
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--on"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              250.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span>
+                              100.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 330</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item3.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Áo khoác gió chống nước Amitino áo gió nam thời
+                              trang unisex
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              250.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 130.000 - <span>₫</span>189.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 399</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="winter">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item4.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>Tất ngắn nam Amitino Vớ thấp cổ màu trơn</p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              7.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 4.550
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 261</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item5.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Áo thun dài tay Amitino Áo giữ nhiệt thể thao nam
+                              4C
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              60.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 39.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 110</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item6.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>Quần đũi nam Amitino Quần dáng trẻ trung</p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--on">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              180.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 169.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 503</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="other">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item7.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần Sịp Nam Boxer Cạp To Cotton Mát Amitino AM02
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              180.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 35.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 1,2k</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item8.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Áo gió lót lông nữ Amintino áo khoác gió nam nữ
+                              lót lông ấm áp dày dặn
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--on">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              299.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 199.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 88</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item9.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Áo khoác lông cừu chống nước Amitino Áo gió thể
+                              thao lót lông kèm túi đựng
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--on">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              299.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 200.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 166</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item10.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Bộ thể thao nam thu đông vải thun nỉ Amitino Áo
+                              khoác thể thao dày dặn co giãn
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--on">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              340.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 179.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 102</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item11.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần đũi nam Amitino Quần dài suông phong cách
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--on"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              150.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 119.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 167</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item12.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần thể thao nam Amitino Jogger nỉ dày dặn Quần
+                              tập Gym nhiều màu
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--on"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              150.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 100.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 132</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item13.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>Quần nỉ nam Amitino Jogger nam thể thao</p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--on"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              150.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 100.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 124</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item14.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Áo phao lông vũ nam Amitino Áo phao siêu nhẹ chất
+                              lông vũ nam
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--on">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              390.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 299.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 63</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item15.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>Quần thể thao nam Amitino Quần thể dục 3 sọc</p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--on"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              120.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 69.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 158</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item16.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần Thể Thao Nam Đen 1 Sọc Trắng Ống Suông
+                              Amitino, Quần Thể Dục Nam
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              120.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 149.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 123</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="clothes">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item17.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần Âu Nam Cao Cấp, Quần Tây Nam Trẻ Chất Vải Co
+                              Giản Nhẹ Hàng Công Ty AMITINO
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--on">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--on">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--on">
+                              <span>₫</span>
+                              299.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 239.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 147</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col l-2-4 m-4 sm-6">
+                      <div class="product__item" rule="other">
+                        <div class="product__item-img">
+                          <div class="product__item-img-favour">
+                            <p>yêu thích</p>
+                          </div>
+                          <div class="product__item-img-sale flex--on">
+                            <p>35%</p>
+                            <span>giảm</span>
+                          </div>
+                          <img src="./img/item18.jpg" alt="" />
+                          <img src="./img/bg-up.png" alt="" />
+                        </div>
+                        <div class="product__item-info">
+                          <div class="product__item-description">
+                            <p>
+                              Quần sịp nam vải cotton Amitino Quần lót boxing
+                              mềm mát
+                            </p>
+                          </div>
+                          <div class="product__item-sale">
+                            <div class="product__item-sale-value display--off">
+                              <p>giảm đ25k</p>
+                            </div>
+                            <div
+                              class="product__item-sale-quantity display--off"
+                            >
+                              <p>Mua giá bán buôn/bán sỉ</p>
+                            </div>
+                            <div class="product__item-sale-deal display--off">
+                              <p>mua kèm deal sốc</p>
+                            </div>
+                          </div>
+                          <div class="product__item-price">
+                            <p class="product__item-price-old display--off">
+                              <span>₫</span>
+                              120.000
+                            </p>
+                            <p class="product__item-price-new">
+                              <span>₫</span> 18.000
+                            </p>
+                          </div>
+                          <div class="product__item-rating">
+                            <div class="product__item-rating-heart">
+                              <i class="far fa-heart"></i>
+                            </div>
+                            <div class="product__item-rating-star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <div class="product__item-rating-sold">
+                              <p>Đã bán 101</p>
+                            </div>
+                          </div>
+                          <div class="product__item-place">
+                            <p>Hà Nội</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- == footer == -->
+            <div id="footer" class="footer">
+              <div class="footer__icon">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+              <button class="footer__btn footer__btn--active">1</button>
+              <button class="footer__btn">2</button>
+              <div class="footer__icon">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- === form dang ki/ dang nhap -->
 
     <div class="modal hide">
-        <div class="modal-wapper">
-            <div class="modal__register hide">
-                <form action="" method="POST" class="form" id="form-1">
-                    <div class="form__title">
-                        <h3 class="form__title-main form__title-register">register</h3>
-                        <h5 class="form__title-sub form__title-login">log in</h5>
-                    </div>
-                    <p class="form__discription">Chào mừng các bạn đến với Luna Official</p>
-                    <div class="form__group">
-                        <label for="fullname" class="form__label">Fullname :</label>
-                        <input class="form__control" type="text" id="fullname" name="fullname" placeholder="Ex : Nguyen Kien">
-                        <span class="form__message"></span>
-                    </div>
-        
-                    <div class="form__group">
-                        <label for="email" class="form__label">Email :</label>
-                        <input class="form__control" type="text" id="email" name="email" placeholder="Ex : email@domaim.com">
-                        <span class="form__message"></span>
-                    </div>
-        
-                    <div class="form__group">
-                        <label for="password" class="form__label">Password :</label>
-                        <input class="form__control" type="password" id="password" name="password" placeholder="Nhập mật khẩu">
-                        <span class="form__message"></span>
-                    </div>
-        
-                    <div class="form__group">
-                        <label for="password_confirm" class="form__label">Password confirm :</label>
-                        <input class="form__control" type="password" id="password_confirm" name="password_confirm" placeholder="Nhập lại mật khẩu">
-                        <span class="form__message"></span>
-                    </div>
-        
-                    <div class="form__footer">
-                        <button class="form__submit">Sign Up</button>
-                        <div class="form__cancel">Cancel</div>
-                    </div>
-                </form>
+      <div class="modal-wapper">
+        <div class="modal__register hide">
+          <form action="" method="POST" class="form" id="form-1">
+            <div class="form__title">
+              <h3 class="form__title-main form__title-register">register</h3>
+              <h5 class="form__title-sub form__title-login">log in</h5>
             </div>
-    
-            <div class="modal__login ">
-                <form action="" method="POST" class="form" id="form-2">
-                    <div class="form__title">
-                        <h3 class="form__title-main form__title-login">log in</h3>
-                        <h5 class="form__title-sub form__title-register">register</h5>
-                    </div>
-                    <p class="form__discription">Chào mừng các bạn đến với Luna Official</p>
-        
-                    <div class="form__group">
-                        <label for="email" class="form__label">Email :</label>
-                        <input class="form__control" type="text" id="email-2" name="email" placeholder="Ex : email@domaim.com">
-                        <span class="form__message"></span>
-                    </div>
-        
-                    <div class="form__group">
-                        <label for="password" class="form__label">Password :</label>
-                        <input class="form__control" type="password" id="password-2" name="password" placeholder="Nhập mật khẩu">
-                        <span class="form__message"></span>
-                    </div>
-        
-                    <div class="form__footer">
-                        <button class="form__submit">Sign Up</button>
-                        <div class="form__cancel">Cancel</div>
-                    </div>
-                </form>
+            <p class="form__discription">
+              Chào mừng các bạn đến với Luna Official
+            </p>
+            <div class="form__group">
+              <label for="fullname" class="form__label">Fullname :</label>
+              <input
+                class="form__control"
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Ex : Nguyen Kien"
+              />
+              <span class="form__message"></span>
             </div>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email :</label>
+              <input
+                class="form__control"
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Ex : email@domaim.com"
+              />
+              <span class="form__message"></span>
+            </div>
+
+            <div class="form__group">
+              <label for="password" class="form__label">Password :</label>
+              <input
+                class="form__control"
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Nhập mật khẩu"
+              />
+              <span class="form__message"></span>
+            </div>
+
+            <div class="form__group">
+              <label for="password_confirm" class="form__label"
+                >Password confirm :</label
+              >
+              <input
+                class="form__control"
+                type="password"
+                id="password_confirm"
+                name="password_confirm"
+                placeholder="Nhập lại mật khẩu"
+              />
+              <span class="form__message"></span>
+            </div>
+
+            <div class="form__footer">
+              <button class="form__submit">Sign Up</button>
+              <div class="form__cancel">Cancel</div>
+            </div>
+          </form>
         </div>
-        
+
+        <div class="modal__login">
+          <form action="" method="POST" class="form" id="form-2">
+            <div class="form__title">
+              <h3 class="form__title-main form__title-login">log in</h3>
+              <h5 class="form__title-sub form__title-register">register</h5>
+            </div>
+            <p class="form__discription">
+              Chào mừng các bạn đến với Luna Official
+            </p>
+
+            <div class="form__group">
+              <label for="email" class="form__label">Email :</label>
+              <input
+                class="form__control"
+                type="text"
+                id="email-2"
+                name="email"
+                placeholder="Ex : email@domaim.com"
+              />
+              <span class="form__message"></span>
+            </div>
+
+            <div class="form__group">
+              <label for="password" class="form__label">Password :</label>
+              <input
+                class="form__control"
+                type="password"
+                id="password-2"
+                name="password"
+                placeholder="Nhập mật khẩu"
+              />
+              <span class="form__message"></span>
+            </div>
+
+            <div class="form__footer">
+              <button class="form__submit">Sign Up</button>
+              <div class="form__cancel">Cancel</div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
     <!-- == script == -->
     <script src="./asset/main.js"></script>
 
     <script>
-        //  Mong muốn
-        Validator({
-            form: '#form-1',
-            formGroup: '.form__group',
-            errorSelector: '.form__message',
-            rules: [
-                Validator.isRequired('#fullname'),
-                Validator.isRequired('#email'),
-                Validator.isEmail('#email'),
-                Validator.isRequired('#password'),
-                Validator.minLength('#password', 6),
-                Validator.isRequired('#password_confirm'),
-                Validator.isConfirm('#password_confirm', function () {
-                    return document.querySelector('#form-1 #password').value
-                }, 'Mật khẩu nhập lại không chính xác')
-            ],
-            onsubmit: function (data) {
-                
-            }
-        })
+      //  Mong muốn
+      Validator({
+        form: "#form-1",
+        formGroup: ".form__group",
+        errorSelector: ".form__message",
+        rules: [
+          Validator.isRequired("#fullname"),
+          Validator.isRequired("#email"),
+          Validator.isEmail("#email"),
+          Validator.isRequired("#password"),
+          Validator.minLength("#password", 6),
+          Validator.isRequired("#password_confirm"),
+          Validator.isConfirm(
+            "#password_confirm",
+            function () {
+              return document.querySelector("#form-1 #password").value;
+            },
+            "Mật khẩu nhập lại không chính xác"
+          ),
+        ],
+        onsubmit: function (data) {},
+      });
 
-        Validator({
-            form: '#form-2',
-            formGroup: '.form__group',
-            errorSelector: '.form__message',
-            rules: [
-                Validator.isRequired('#email-2'),
-                Validator.isEmail('#email-2'),
-                Validator.isRequired('#password-2'),
-                Validator.minLength('#password-2', 6),
-            ],
-            onsubmit: function (data) {
-                
-            }
-        })
+      Validator({
+        form: "#form-2",
+        formGroup: ".form__group",
+        errorSelector: ".form__message",
+        rules: [
+          Validator.isRequired("#email-2"),
+          Validator.isEmail("#email-2"),
+          Validator.isRequired("#password-2"),
+          Validator.minLength("#password-2", 6),
+        ],
+        onsubmit: function (data) {},
+      });
     </script>
-</body>
+  </body>
 </html>

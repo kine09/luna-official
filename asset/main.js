@@ -314,5 +314,17 @@ document.querySelector('.modal-wapper').addEventListener('click',(e)=>{
 
 }
 
-// sắp xếp theo giá
+// sắp xếp theo trending
+
+{
+  var trendingBtns = document.querySelectorAll('.product__navbar-sort-btn')
+
+  for(var trendingBtn of trendingBtns){
+    trendingBtn.addEventListener('click', function(){
+      document.querySelector('.product__navbar-sort-btn.btn--active').classList.remove('btn--active')
+      this.classList.add('btn--active')
+    })
+  }
+}
+
 
