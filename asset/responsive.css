@@ -1,8 +1,4 @@
 @media(max-width: 739px) {
-    .hidden {
-        display: none;
-    }
-
     .header {
         height: 85px;
     }
@@ -94,20 +90,24 @@
 }
 
 
-
+@media(max-width: 1023px){
+    .hiden {
+        display: none;
+    }
+}
 
 
 @media (min-width: 740px) and (max-width: 1023px) {
+    .off {
+        display: none;
+    }
+    
     .header__box {
         max-width: 600px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: relative;
-    }
-
-    .off {
-        display: none;
     }
 
     .header__box1 {
